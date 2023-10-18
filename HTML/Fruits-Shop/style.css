@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.welcome-text{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 10px;
+}
