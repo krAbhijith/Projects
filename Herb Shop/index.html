@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌿IHerb</title>
+    <link rel="stylesheet"href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+        
+        <div class="welcome">
+            <p class="para">Welcome to Our Online Store</p>
+
+        </div>
+        <center>
+            <img src="images/logo-default.png" alt="logoos" class="logo">
+        </center>
+        <div class="link">
+            <div class="left">
+                <h3 class="icontxt"><ion-icon name="person"></ion-icon>Welcome</h3>
+                <a href=""class="nav-link">Home</a>
+                <a href=""class="nav-link">Shop</a>
+                <a href=""class="nav-link">About</a>
+                <a href=""class="nav-link">Contact</a>
+            </div>
+            <div class="right">
+                <a onclick= "login()" class="nav-link">Login</a>
+                <a onclick="signup()"class="nav-link">Signup</a>
+            </div>
+        </div>
+        </div>
+        <div>
+            <center>
+                <img src="images/slider1.webp" alt="home"class="banner">
+            </center>
+            
+        </div>
+        <div class="section">
+            <img src="images/img.png" alt="" class="background-img">
+            <h5 class="h5">OUR PRODUCTS</h5>
+            <h3 class="h3">GREAT <span class="subheading"> PRODUCTS </span>BETTER<br> OUTCOME</h3>
+            <p class="paragraph">Browse the products you want</p>
+            <div class="products">
+                <div class="product-card">
+                  <img src="images/R_7.png" alt="" class="product-image">
+                  <h3 class="name">Mango</h3>
+                  <h5 class="type">Veggie Farm</h5>
+                  <p class="price">₹20</p>
+                    <div class="options">
+                    <h4 class="option"><ion-icon name="eye-outline"></ion-icon></h4>
+                    <h4 class="option"><ion-icon name="cart-outline"></ion-icon></h4>
+                    <h4 class="option"><ion-icon name="share-social-outline"></ion-icon></h4>
+                    </div>
+                </div>  
+                <div class="product-card">
+                  <img src="images/R_8.png" alt="" class="product-image">
+                  <h3 class="name">Grape</h3>
+                  <h5 class="type">Veggie Farm</h5>
+                  <p class="price">₹30</p>
+                    <div class="options">
+                    <h4 class="option"><ion-icon name="eye-outline"></ion-icon></h4>
+                    <h4 class="option"><ion-icon name="cart-outline"></ion-icon></h4>
+                    <h4 class="option"><ion-icon name="share-social-outline"></ion-icon></h4>
+                    </div>
+                </div>  
+                <div class="product-card">
+                  <img src="images/unnamed.png" alt="" class="product-image">
+                  <h3 class="name">Strawberry</h3>
+                  <h5 class="type">Veggie Farm</h5>
+                  <p class="price">₹60</p>
+                    <div class="options">
+                    <h4 class="option"><ion-icon name="eye-outline"></ion-icon></h4>
+                    <h4 class="option"><ion-icon name="cart-outline"></ion-icon></h4>
+                    <h4 class="option"><ion-icon name="share-social-outline"></ion-icon></h4>
+                    </div>
+                </div>  
+              </div>
+
+        </div>
+        <div class="login-wrapper">
+            <div class="box">
+                    <img src="images/animation_lm2z3dir_small.gif" alt="">
+                    <h3>SIGN IN</h3>
+                    <p> Login into Your Account</p>
+                    <input type="text"placeholder="Username" class="usr">
+                    <input type="password"placeholder="password" class="pwd">
+                    <a href="loginpage.html"><button onclick="store()">Login to My Account</button></a>
+                    <h1 onclick="closeLogin()" class="close"><ion-icon name="close-circle-outline"></ion-icon></h1>
+            </div>
+        </div>
+        <div class="signup-wrapper">
+            <div class="box1">
+                    <img src="images/animation_lm5240kq_small.gif" alt="">
+                    <h3>SIGN UP</h3>
+                    <p>SIGNUP TO AN ACCOUNT</p>
+                    <input type="text"placeholder=" Enter a Username" class="usr1">
+                    <input type="password"placeholder=" Enter a password" class="pwd1">
+                    <input type="password"placeholder=" Confirm password" class="pwd2">
+                    <button onclick="store2()">Create new Account</button>
+                    <h1 onclick="closesignup()" class="close1"><ion-icon name="close-circle-outline"></ion-icon></h1>
+            </div>
+
+
+        </div>
+       
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

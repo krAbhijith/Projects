@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+*{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+}
+
+.welcome{
+            background-color: rgb(0, 0, 0);
+            width:100%;
+            height:50px;
+            display:flex;
+            justify-content:space-evenly;
+            align-items: center;
+}
+.para{
+        color: #fefdfd;
+        font: size 15px;
+        text-transform: uppercase;
+        font-weight: 500;
+}
+.logo{
+    width: 150px;
+    margin-top:  20px;
+}
+.icontxt{
+    background-color: rgb(225, 217, 217);
+    width: 160px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    font-size:medium;
+}
+.left{
+    display:flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 50px;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right{
+    display: flex;
+    gap: 50px;
+    margin-right: 50px;
+}
+.banner{
+    margin-top: 20px;
+    width: 950px;
+}
+.section{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.h5{
+    margin-top:center ;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size:15px;
+    text-align: center;
+    color: #545353;
+}
+.h3{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.subheading{
+    color: green;
+
+}
+.paragraph{
+    color: #beb8b8;
+
+}
+.product-image{
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+}
+.product-card{
+    width:250px;
+    display: flex;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items: center;
+    transition: 0.3s;
+    position: relative;
+}
+.options{
+    display: flex;
+    gap: 30px;
+    margin-top:20px;
+}
+.price{
+    color: green;
+    font-weight: 400;
+}
+.option{
+    font-size: 20px;
+    border:1px solid black;
+    width:40px;
+    height:40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s
+}
+.products{
+    display: flex;
+    gap: 30px;
+    margin-top:30px;
+    margin-bottom:100px;
+}
+.option:hover{
+    background-color: rgb(235, 68, 68);
+    color: rgb(56, 56, 56);
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.product-card:hover{
+    
+    transform: scale(1.5);
+    cursor: pointer;
+
+}
+.background-img{
+    position:absolute;
+    width:100%;
+    height:100% ;
+    object-fit: cover;
+    opacity:0.1;
+    top: 0;
+}
+.login-wrapper{
+    width:100%;
+    height:100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(18, 17, 17, 0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width:250px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:10px;
+    position: relative;
+    bottom: 10px;
+}
+.box img{
+    width: 120px;
+    margin-top: 25px;
+}
+.box h3{
+    font-weight:bold ;
+    margin-top: 10px;
+
+}
+.box p{
+    font-size:13px ;
+    font-weight:bold ;
+    color:gray ;
+    margin-bottom:25px ;
+    position: relative;
+
+
+}
+.box input{
+    padding: 8px;
+    width: 200px;
+    border-top:transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid #545353;
+     margin-bottom: 15px;
+     outline: none;
+}
+.box button{
+    width: 180px;
+    height: 40px;
+    padding: 220;
+    margin-bottom: 30px;
+    margin-top:20px;
+    background-color:rgb(128, 176, 128);
+    border-left:transparent;
+    border-right:transparent ;
+    border-top: transparent;
+    border-bottom:transparent;
+    border-radius: 5%;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+.signup-wrapper{
+    width:100%;
+    height:100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(18, 17, 17, 0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    width:250px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:10px;
+    position: relative;
+    bottom: 10px;
+}
+.box1 img{
+    width: 120px;
+    margin-top: 25px;
+}
+.box1 h3{
+    font-weight:bold ;
+    margin-top: 10px;
+
+}
+.box1 p{
+    font-size:13px ;
+    font-weight:bold ;
+    color:gray ;
+    margin-bottom:25px ;
+    position: relative;
+
+
+}
+.box1 input{
+    padding: 8px;
+    width: 200px;
+    border-top:transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid #545353;
+     margin-bottom: 15px;
+     outline: none;
+}
+.box1 button{
+    width: 180px;
+    height: 40px;
+    padding: 220;
+    margin-bottom: 30px;
+    margin-top:20px;
+    background-color:rgb(128, 176, 128);
+    border-left:transparent;
+    border-right:transparent ;
+    border-top: transparent;
+    border-bottom:transparent;
+    border-radius: 5%;
+}
+.close1{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
