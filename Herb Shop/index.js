@@ -4,6 +4,17 @@ function login(){
 function closeLogin(){
     document.querySelector('.login-wrapper').style.display="none"
 }
+function menuToggle(state) {
+    if(state == 0){
+        document.querySelector('.menu-btn').style.display = "none"
+        document.querySelector('.close-btn').style.display = "flex"
+        document.querySelector('.menu-list').style.display = "block"
+    }else if(state == 1){
+        document.querySelector('.menu-btn').style.display = "flex"
+        document.querySelector('.close-btn').style.display = "none"
+        document.querySelector('.menu-list').style.display = "none"
+    }
+}
 function store(){
     var username=document.querySelector('.usr').value
     var password=document.querySelector('.pwd').value

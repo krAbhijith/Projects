@@ -19,15 +19,36 @@
         </center>
         <div class="link">
             <div class="left">
-                <h3 class="icontxt"><ion-icon name="person"></ion-icon>Welcome</h3>
+                <!-- <h3 class="icontxt"><ion-icon name="person"></ion-icon>Welcome</h3> -->
                 <a href=""class="nav-link">Home</a>
-                <a href=""class="nav-link">Shop</a>
+                <!-- <a href=""class="nav-link">Shop</a> -->
                 <a href=""class="nav-link">About</a>
                 <a href=""class="nav-link">Contact</a>
             </div>
-            <div class="right">
+            <div class="menu">
+                <button class="menu-btn" onclick="menuToggle(0)">
+                    <img src="images/icons8-menu-ios-16-32.png" alt="">
+                </button>
+            </div>
+            <!-- <div class="right">
                 <a onclick= "login()" class="nav-link">Login</a>
                 <a onclick="signup()"class="nav-link">Signup</a>
+            </div> -->
+        </div>
+        <div class="menu-list">
+            <div class="list-div">
+                <ul>
+                    <li>
+                        <button class="close-btn" onclick="menuToggle(1)">
+                            <img src="images/icons8-close-button-32.png" alt="">
+                        </button>
+                    </li>
+                    <li><a href="#" class="menu-nav-link">Home</a></li>
+                    <li><a href="#" class="menu-nav-link">About</a></li>
+                    <li><a href="#" class="menu-nav-link">Contact</a></li>
+                    <!-- <li><a onclick= "login()" class="menu-nav-link">Login</a></li>
+                    <li><a onclick="signup()"class="menu-nav-link">Signup</a></li> -->
+                </ul>
             </div>
         </div>
         </div>
