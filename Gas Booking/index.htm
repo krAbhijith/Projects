@@ -20,6 +20,10 @@
         .heading{
             font-weight: bolder;
             font-size: larger;
+            display: none;
+        }
+        .active{
+            display: grid;
         }
     </style>
 </head>
@@ -40,15 +44,22 @@
         <input type="tel" name="phone" id="phone">
         Name:
         <input type="text" name="cName" id="cName">
-        <input type="button" value="Add" onclick="store(cId.value, place.value, phone.value, cName.value)">
+        <input type="button" value="Add" onclick="addBooking(cId.value)">
+        <input type="button" value="Today Log" onclick="todayLog()">
+        <input type="button" value="Bookings" onclick="display()">
     </form>
     <div class="head-div">
-        <div class="heading">
+        <div class="heading active" id="heading-booking">
             <div class="field">Consumer Number</div>
             <div class="field">Place</div>
             <div class="field">Phone</div>
             <div class="field">Name</div>
             <div class="field"></div>
+        </div>
+        <div class="heading" id="heading-log">
+            <div class="field">Consumer Number</div>
+            <div class="field">Place</div>
+            <div class="field">Name</div>
         </div>
     </div>
     <div class="container displayTable">
